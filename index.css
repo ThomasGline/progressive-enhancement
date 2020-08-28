@@ -1,0 +1,43 @@
+.p1{
+    color:rgb(92, 92, 92);
+    font-family: Georgia;
+    line-height: 1.5;
+    font-size: 18px;
+}
+a:link{
+    color: rgb(133, 0, 0);
+    font-size: 18px;
+    font-family: Georgia;
+}
+a:visited{
+    color: rgb(255, 0, 157);
+    font-size: 18px;
+    font-family: Georgia;
+}
+a:hover{
+    color: rgb(21, 255, 0);
+    font-size: 18px;
+    font-family: Georgia;
+}
+body{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(fond.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-size: cover;
+
+}
+.citation{
+    font-size: 160%;
+    font-family: Georgia;
+    margin-right: 50%;
+    background-color: rgb(241, 241, 241);
+    border-left: 3px solid rgb(233, 0, 0);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    
+}
