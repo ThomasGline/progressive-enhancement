@@ -1,6 +1,19 @@
+h1 {
+    font-family: 'OpenSans-Regular';
+}
+h2 {
+    font-family: 'OpenSans-Regular';
+}
 .p1{
     color:rgb(92, 92, 92);
-    font-family: Georgia;
+
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: bold;
+}
+.p2{
+    color:rgb(92, 92, 92);
+
     line-height: 1.5;
     font-size: 18px;
 }
@@ -39,5 +52,64 @@ body{
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 30px;
+    font-style: italic;
     
+}
+.citation2{
+    font-size: 160%;
+    font-family: Georgia;
+    margin-right: 50%;
+    background-color: rgb(241, 241, 241);
+    border-left: 3px solid rgb(0, 233, 0);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+.titre{
+    background-color: yellow;
+}
+.bien{
+    color: rgb(0, 218, 0);
+    text-transform: uppercase;
+}
+.mal{
+    color: red;
+    text-transform: uppercase;
+}
+th{
+    background-color: gray;
+}
+.tdblanc{
+    background-color: white;
+}
+.tdgris{
+    background-color: gray;
+}
+.imgbien{
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-position-x: 19%;
+    background-size: 1%;
+}
+.imgmal{
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+    background-size: 1%;
+}
+.imgchat{
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-position-x: 22%;
+    background-size: 1%;
+}
+.image1{
+    margin-right: 5%;
+    float: left;
+}
+.image2{
+    margin-left: 5%;
+    float: right;
 }
