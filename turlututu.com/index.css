@@ -30,7 +30,16 @@
 .menu a:hover {
     background-color: rgb(22, 22, 22);
 }
-.h{
+body{
+    background-color: rgb(78, 153, 238);
+    background-image: url(monsieur.png);
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: 50px;
+    background-size: 23.5%;
+    }
+}
+/*.h{
     background-color: rgb(78, 153, 238);
     margin-top: -16px;
     margin-left: -8px;
@@ -38,8 +47,8 @@
     color: white;
     font-family: "Comfortaa-VariableFont_wght";
     font-size: 30px;
-}
-.p1{
+}*/
+/*.p1{
     background-color: rgb(78, 153, 238);
     margin-top: -20px;
     margin-left: -8px;
@@ -53,22 +62,30 @@
     background-image: url(monsieur.png);
     background-repeat: no-repeat;
 
+}*/
+.logo {
+    padding-top: 1700px;
 }
-.logo{
-    max-width: 20%;
-    margin-top: 70px;
-    
+.ph1{
+    text-align: center;
+    color: white;
+    font-family: "Comfortaa-VariableFont_wght";
+    font-size: 30px;
 }
 .bouton{
     text-decoration: none;
     border: 3px solid white;
     border-radius: 5px;
     color: white;
+    font-family: "Comfortaa-VariableFont_wght";
+    font-weight: bold;
     background-color: rgb(233, 178, 0);
+    margin-bottom: 15px;
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
+    text-align: center;
 }
 .bouton:hover{
     background-color: rgb(194, 149, 0);
@@ -80,7 +97,11 @@
 }*/
 .project{
     font-family: "Comfortaa-VariableFont_wght";
-    margin-bottom: 15px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: white;
 }
 table{
     margin-left: -8px;
@@ -91,7 +112,7 @@ table{
     background-color: rgb(78, 153, 238);
     color: white;
     line-height: 1.5;
-    font-weight: bold;
+    font-weight: normal;
     text-align: left;
 }
 .titretableau{
