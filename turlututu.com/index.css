@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Comfortaa-VariableFont_wght";
+    src: url("Comfortaa/Comfortaa-VariableFont_wght.ttf") format("truetype");
+}
+.menu {
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    font-family: "Comfortaa-VariableFont_wght";
+    background-image: url(logo2.png);
+    background-repeat: no-repeat;
+    background-position-x: 13%;
+    background-position-y: center;
+    background-size: 7%;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.menu li {
+    display: inline-block;
+}
+.menu a {
+    display: block;
+    width: 80px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+.menu a:hover {
+    background-color: rgb(22, 22, 22);
+}
+.h{
+    background-color: rgb(78, 153, 238);
+    margin-top: -16px;
+    margin-left: -8px;
+    margin-right: -8px;
+    color: white;
+    font-family: "Comfortaa-VariableFont_wght";
+    font-size: 30px;
+}
+.p1{
+    background-color: rgb(78, 153, 238);
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    color: white;
+    font-family: "Comfortaa-VariableFont_wght";
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url(monsieur.png);
+    background-repeat: no-repeat;
+
+}
+.logo{
+    max-width: 20%;
+    margin-top: 70px;
+    
+}
+.bouton{
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(233, 178, 0);
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.bouton:hover{
+    background-color: rgb(194, 149, 0);
+}
+/*.monsieur{
+    margin-left: -110%;
+    margin-top: -30%;
+    height: 300px;
+}*/
+.project{
+    font-family: "Comfortaa-VariableFont_wght";
+    margin-bottom: 15px;
+}
+table{
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Comfortaa-VariableFont_wght";
+    background-color: rgb(78, 153, 238);
+    color: white;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: left;
+}
+.titretableau{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: normal;
+}
